@@ -1,36 +1,3 @@
-# 🚀 Get Started
-
-**This repo is where attendees go to continue their learning after your session — and your Copilot agent will help you set it up.**
-
-### Step 1: Open your repo
-
-Open this repo in a **Codespace** (click the green **Code** button → **Create a Codespace**) — or clone it locally. Then open **GitHub Copilot Chat**.
-
-### Step 2: Add your content
-
-Give the agent something to work with. Drag files into the Explorer panel — session abstracts, outlines, screenshots, notes — and drop them in one of two places:
-
-| Where to put it | What goes there | Who sees it |
-|---|---|---|
-| **`_remove-before-publish/`** | Internal reference materials (abstracts, outlines, screenshots, planning docs) | **Copilot only** — never published |
-| **`/docs/`, `/src/`, or repo root** | Lab instructions, demo code, sample data, getting-started guides | **Attendees** — published with the repo |
-
-> 💡 Not sure? Start by dropping your session abstract or outline into `_remove-before-publish/`. The agent will figure out what to do with it.
-
-### Step 3: Ask the Agent
-
-Once your content is in the repo, use these three phrases with Copilot to build out your session repo:
-
-| Phrase to use with Copilot | What it does | When to run it |
-|---|---|---|
-| **"Help me get started"** | Sets up session title, description, outcomes, and owners | After you've added your session abstract or outline to the repo |
-| **"Help me refine content"** | Organizes your session content into the repo | Each time you add or update content |
-| **"Help me finalize"** | Final review, cleanup, and publication prep | When you're ready to publish |
-
-> 💡 **These three phrases are just the starting point.** Copilot can do much more — try asking it to brainstorm next steps for attendees, generate code samples, or build out your repo structure. Don't be afraid to put it in plan mode and ask for what you need.
-
----
-
 <a name="start-building"></a>
 <br>
 <p align="center">
@@ -39,33 +6,21 @@ Once your content is in the repo, use these three phrases with Copilot to build 
 
 # [Microsoft Build 2026](https://build.microsoft.com)
 
-## 🔥 BRKXXX: SESSION TITLE
+## 🔥 BRK203: From CLI to PR: Automating the path to merged code
 
 ### Session Description
 
-*Add Session Description*
+Everyone talks about agents, but the real challenge is applying them to daily sprints. Moving beyond chat, we'll show how GitHub Copilot functions as an agentic partner in your workflow by live-coding a full cycle—from planning in the terminal to delegating work to the cloud and automating PR reviews. No high-level abstractions here. Just technical mechanics: context management, advanced features with Copilot CLI, and the patterns that make agentic workflows actually stick.
 
-### 🏫 Getting started in a guided session
+### 🏠 Getting started on your own
 
-To get started in a guided lab session:
-- <!-- step 1 -->
-- <!-- step 2 -->
-- <!-- step 3 -->
+Ready to start using GitHub Copilot CLI? [Install today](https://docs.github.com/en/copilot/how-tos/copilot-cli/cli-getting-started#installation)
 
-### 🏠 Getting started in your own environment
+### 🧠 Goals
 
-If you're following these steps at your own pace:
-- Clone this repository
-- Set up your development environment
-- <!-- step 3 -->
-
-### 🧠 Learning Outcomes
-
-By the end of this session, you will be able to:
-
-- <!-- outcome 1 -->
-- <!-- outcome 2 -->
-- <!-- outcome 3 -->
+- Teach a repeatable workflow for going from idea → PR → merged code using agents​
+- Show how to increase success rate of one-shot implementations​
+- Demonstrate how to build verification loops that make agents reliable
 
 ### 💬 Keep Learning with Copilot
 
@@ -75,19 +30,20 @@ Use these as a starting point — or write your own!
 
 <!-- Prompts will be tailored to this session's content during repo setup. -->
 
-> *Prompts coming soon — check back after the session content is finalized.*
-
-### 💻 Technologies Used
-
-1. <!-- technology 1 -->
-1. <!-- technology 2 -->
-1. <!-- technology 3 -->
+- *How do I get started with GitHub Copilot CLI?*
+- *What are best practices for Copilot CLI?*
+- *How can you use multiple models at once?*
+- *How does the Copilot CLI harness work under the hood?*
 
 ### 📚 Resources and Next Steps
 
 | Resource | Description |
 |:---------|:------------|
-| [https://aka.ms/build26-next-steps](https://aka.ms/build26-next-steps) | Explore lab and session repos to further your learning from Microsoft Build |
+| [GitHub Copilot CLI web page](https://github.com/features/copilot/cli) | Check out our website|
+| [GitHub Copilot CLI best practices](https://docs.github.com/en/copilot/how-tos/copilot-cli/cli-best-practices) | Learn to get the most out of Copilot CLI|
+| [GitHub Copilot CLI changelog](https://github.com/github/copilot-cli/releases)|Copilot CLI specific changelog with all the releases|
+| [GitHub Copilot CLI beginner tutorial](https://github.com/github/copilot-cli-for-beginners) | Repo tutorial course for beginners|
+| [GitHub Copilot CLI beginner videos](https://www.youtube.com/playlist?list=PL0lo9MOBetEHvO-spzKBAITkkTqv4RvNl)| Video format tutorial course for beginners|
 
 
 ### 🌟 Microsoft Learn MCP Server
@@ -115,12 +71,18 @@ For more info, other clients, and to post questions, visit the [Learn MCP Server
 
 <table>
 <tr>
-    <td align="center"><a href="http://github.com/yourGitHubHandle">
-        <img src="https://github.com/yourGitHubHandle.png" width="100px;" alt="INSERT NAME HERE"/><br />
-        <sub><b>INSERT NAME HERE</b></sub></a><br />
-            <a href="https://github.com/yourGitHubHandle" title="talk">📢</a>
+    <td align="center"><a href="http://github.com/cassidoo">
+        <img src="https://github.com/cassidoo.png" width="100px;" alt="Cassidy Williams"/><br />
+        <sub><b>Cassidy Williams</b></sub></a><br />
+            <a href="https://github.com/cassidoo" title="Senior Director, Developer Advocacy">📢</a>
     </td>
-</tr></table>
+    <td align="center"><a href="http://github.com/evanboyle">
+        <img src="https://github.com/evanboyle.png" width="100px;" alt="Evan Boyle"/><br />
+        <sub><b>Evan Boyle</b></sub></a><br />
+            <a href="https://github.com/evanboyle" title="Principal Manager, Software Engineering">📢</a>
+    </td>
+</tr>
+</table>
 
 ## Contributing
 
