@@ -8,7 +8,7 @@
 
 ## 🔥 BRK203: From CLI to PR: Automating the path to merged code
 
-![GitHub Copilot CLI terminal home screen](CLi_TerminalHome.png)
+<img src="CLi_TerminalHome.png" alt="GitHub Copilot CLI terminal home screen" width='50%' />
 
 ### Session Description
 
