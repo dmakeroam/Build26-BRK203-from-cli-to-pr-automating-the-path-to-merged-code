@@ -14,6 +14,9 @@
 
 Everyone talks about agents, but the real challenge is applying them to daily sprints. Moving beyond chat, we'll show how GitHub Copilot functions as an agentic partner in your workflow by live-coding a full cycle—from planning in the terminal to delegating work to the cloud and automating PR reviews. No high-level abstractions here. Just technical mechanics: context management, advanced features with Copilot CLI, and the patterns that make agentic workflows actually stick.
 
+### Session Slides
+*Will be added soon*
+
 ### 🏠 Getting started on your own
 
 Ready to start using GitHub Copilot CLI? [Install today](https://docs.github.com/en/copilot/how-tos/copilot-cli/cli-getting-started#installation)
