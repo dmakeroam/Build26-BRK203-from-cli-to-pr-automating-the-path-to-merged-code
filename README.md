@@ -19,7 +19,9 @@ Everyone talks about agents, but the real challenge is applying them to daily sp
 
 ### 🏠 Getting started on your own
 
-Ready to start using GitHub Copilot CLI? [Install today](https://docs.github.com/en/copilot/how-tos/copilot-cli/cli-getting-started#installation)
+Ready to start using GitHub Copilot CLI? [Install today](
+https://github.com/features/copilot/cli?utm_source=build-brk203-related-copilot-cli-product-page-cta&utm_medium=event&utm_campaign=msbuild-2026
+)
 
 ### 🧠 Goals
 
@@ -44,11 +46,11 @@ Use these as a starting point — or write your own!
 
 | Resource | Description |
 |:---------|:------------|
-| [GitHub Copilot CLI web page](https://github.com/features/copilot/cli) | Check out our website|
-| [GitHub Copilot CLI best practices](https://docs.github.com/en/copilot/how-tos/copilot-cli/cli-best-practices) | Learn to get the most out of Copilot CLI|
-| [GitHub Copilot CLI changelog](https://github.com/github/copilot-cli/releases)|Copilot CLI specific changelog with all the releases|
-| [GitHub Copilot CLI beginner tutorial](https://github.com/github/copilot-cli-for-beginners) | Repo tutorial course for beginners|
-| [GitHub Copilot CLI beginner videos](https://www.youtube.com/playlist?list=PL0lo9MOBetEHvO-spzKBAITkkTqv4RvNl)| Video format tutorial course for beginners|
+| [GitHub Copilot CLI web page](https://github.com/features/copilot/cli?utm_source=build-brk203-related-copilot-cli-product-page-cta&utm_medium=event&utm_campaign=msbuild-2026) | Check out our website|
+| [GitHub Copilot CLI best practices](https://docs.github.com/en/copilot/how-tos/copilot-cli/cli-best-practices?utm_source=build-brk203-related-cli-best-practices-cta&utm_medium=event&utm_campaign=msbuild-2026) | Learn to get the most out of Copilot CLI|
+| [GitHub Copilot CLI changelog](https://github.com/github/copilot-cli/releases?utm_source=build-brk203-related-cli-releases-cta&utm_medium=event&utm_campaign=msbuild-2026)|Copilot CLI specific changelog with all the releases|
+| [GitHub Copilot CLI beginner tutorial](https://github.com/github/copilot-cli-for-beginners?utm_source=build-brk203-related-cli-beginners-repo-cta&utm_medium=event&utm_campaign=msbuild-2026) | Repo tutorial course for beginners|
+| [GitHub Copilot CLI beginner videos](https://www.youtube.com/playlist?list=PL0lo9MOBetEHvO-spzKBAITkkTqv4RvNl&utm_source=build-brk203-related-youtube-cli-playlist-cta&utm_medium=event&utm_campaign=msbuild-2026)| Video format tutorial course for beginners|
 
 
 ### 🌟 Microsoft Learn MCP Server
