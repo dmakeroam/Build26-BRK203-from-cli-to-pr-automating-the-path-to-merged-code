@@ -52,6 +52,12 @@ Use these as a starting point — or write your own!
 | [GitHub Copilot CLI beginner tutorial](https://github.com/github/copilot-cli-for-beginners?utm_source=build-brk203-related-cli-beginners-repo-cta&utm_medium=event&utm_campaign=msbuild-2026) | Repo tutorial course for beginners|
 | [GitHub Copilot CLI beginner videos](https://www.youtube.com/playlist?list=PL0lo9MOBetEHvO-spzKBAITkkTqv4RvNl&utm_source=build-brk203-related-youtube-cli-playlist-cta&utm_medium=event&utm_campaign=msbuild-2026)| Video format tutorial course for beginners|
 
+### Related Labs
+| Lab | Title | Repo |
+|-----|-------|------|
+| LAB500 | Terminal to Party: Live-Coding with GitHub Copilot CLI and Hydra | https://github.com/microsoft/Build26-LAB500-terminal-to-party-live-coding-with-github-copilot-cli-and-hydra |
+| LAB501 | From zero to deployed on Azure with AI agents | https://github.com/microsoft/Build26-LAB501-from-zero-to-deployed-on-azure-with-ai-agents |
+| LAB502 | Make GitHub Copilot Work Your Way: Custom Tools, Context and Workflows | https://github.com/microsoft/Build26-LAB502-make-github-copilot-work-your-way-custom-tools-context-and-workflows |
 
 ### 🌟 Microsoft Learn MCP Server
 
