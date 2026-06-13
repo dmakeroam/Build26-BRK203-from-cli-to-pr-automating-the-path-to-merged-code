@@ -118,3 +118,39 @@ trademarks or logos is subject to and must follow
 [Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/legal/intellectualproperty/trademarks/usage/general).
 Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
 Any use of third-party trademarks or logos are subject to those third-party's policies.
+
+---
+
+## Prime checker (simple example)
+
+A small Python script was added as a demonstrative utility for checking whether a number is prime.
+
+Files added:
+- src/prime_checker.py — core function is_prime(n: int) -> bool
+- src/cli.py — CLI wrapper (reads CLI arg or stdin). Exit codes: 0=prime, 1=composite, 2=error
+- test_prime_checker.py — pytest unit tests
+
+Run locally (using a virtual environment):
+
+1. Create a virtual environment and install pytest (optional for running tests):
+
+   python3 -m venv .venv
+   source .venv/bin/activate
+   python -m pip install -U pip
+   python -m pip install pytest
+
+2. Run tests:
+
+   .venv/bin/python -m pytest -q
+
+3. Run the CLI script:
+
+   # check single number argument
+   python src/cli.py 17
+
+   # or pass via stdin
+   echo 17 | python src/cli.py
+
+Notes:
+- The implementation uses a simple trial division algorithm (O(sqrt(n))) suitable for small-to-moderate integers.
+- For cryptographic or very large integers, consider probabilistic algorithms like Miller–Rabin.
