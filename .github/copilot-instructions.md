@@ -1,27 +1,42 @@
-This is a Microsoft Build 2026 session content repository.
+<!-- headroom:rtk-instructions -->
+# RTK (Rust Token Killer) - Token-Optimized Commands
 
-If GUIDANCE.md exists in this repo, the repo has not yet been fully set up. When a content creator asks for help preparing the repo, read GUIDANCE.md and follow its instructions. The setup uses a **three-phase model**:
+When running shell commands, **always prefix with `rtk`**. This reduces context
+usage by 60-90% with zero behavior change. If rtk has no filter for a command,
+it passes through unchanged — so it is always safe to use.
 
-- **Get Started** — Session identity, learning outcomes, technologies, content owners
-- **Refine Content** — Organize session content into /docs/ and /src/, fill in Getting Started sections (can be run multiple times as content evolves)
-- **Finalize** — Final review, repo settings, slides/recordings links, delete GUIDANCE.md
+## Key Commands
+```bash
+# Git (59-80% savings)
+rtk git status          rtk git diff            rtk git log
 
-When the creator asks for help, determine which phase they want to work on. You can detect this based on what's already filled in:
-- If the README still has placeholder text (BRKXXX, "Add Session Description"), start with Get Started
-- If the README has session info but content isn't organized yet, suggest Refine Content
-- If content is organized and they want to finalize, suggest Finalize
+# Files & Search (60-75% savings)
+rtk ls <path>           rtk read <file>         rtk grep <pattern>
+rtk find <pattern>      rtk diff <file>
 
-Key constraints:
-- Never commit secrets, API keys, or credentials. Use environment variables.
-- Do not modify LICENSE, LICENSE-DOCS, CODE_OF_CONDUCT.md, or SECURITY.md.
-- Do not add large binary files (PowerPoint, video, recordings) to the repo. Links are fine.
-- The `_remove-before-publish/` folder is for source materials (abstracts, screenshots, notes). Its contents are gitignored — scan it for context but never try to commit files from it. Direct creators to put reference materials there, not in the repo root.
-- Use the Microsoft Learn MCP Server (configured in .vscode/mcp.json) to find relevant learn.microsoft.com links when populating resource sections.
+# Test (90-99% savings) — shows failures only
+rtk pytest tests/       rtk cargo test          rtk test <cmd>
 
-### Issue Support
-If a user asks for help filing an issue, or reports a problem:
-- Check `.github/ISSUE_TEMPLATE/` to discover available issue templates
-- If templates exist, match the user's request to the best-fit template and walk them through the fields
-- If no templates exist, create a plain issue with a clear title and description
-- Check `gh label list` for available labels and apply relevant ones
-- Do not hardcode template names or labels — always discover what's available at runtime
+# Build & Lint (80-90% savings) — shows errors only
+rtk tsc                 rtk lint                rtk cargo build
+rtk prettier --check    rtk mypy                rtk ruff check
+
+# Analysis (70-90% savings)
+rtk err <cmd>           rtk log <file>          rtk json <file>
+rtk summary <cmd>       rtk deps                rtk env
+
+# GitHub (26-87% savings)
+rtk gh pr view <n>      rtk gh run list         rtk gh issue list
+
+# Infrastructure (85% savings)
+rtk docker ps           rtk kubectl get         rtk docker logs <c>
+
+# Package managers (70-90% savings)
+rtk pip list            rtk pnpm install        rtk npm run <script>
+```
+
+## Rules
+- In command chains, prefix each segment: `rtk git add . && rtk git commit -m "msg"`
+- For debugging, use raw command without rtk prefix
+- `rtk proxy <cmd>` runs command without filtering but tracks usage
+<!-- /headroom:rtk-instructions -->

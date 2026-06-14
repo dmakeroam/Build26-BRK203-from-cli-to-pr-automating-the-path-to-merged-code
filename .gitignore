@@ -3,6 +3,7 @@
 Template files will not be tracked by git.
 *.bak
 *.tmp
+.github
 
 # Source materials folder — contents excluded, README tracked
 _remove-before-publish/*
